@@ -1,4 +1,7 @@
-# NuVotifier
+# NuVotifier Fork - Bukkit only
+
+This fork increases username length to 32 characters.
+Build against latest release of Paper 1.21.4
 
 NuVotifier is a secure alternative to using the original Votifier project.
 NuVotifier will work in place of Votifier - any vote listener that supports
@@ -7,9 +10,6 @@ Votifier will also support NuVotifier.
 NuVotifier supports many different platforms using the same universal JAR:
 
 + Bukkit / Spigot / Paper >=1.7.10
-+ Sponge 7
-+ BungeeCord / Waterfall
-+ Velocity
 
 NuVotifier also adds forwarding and listener test commands not present in the
 original version.

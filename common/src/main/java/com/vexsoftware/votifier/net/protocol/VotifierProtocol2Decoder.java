@@ -61,7 +61,7 @@ public class VotifierProtocol2Decoder extends MessageToMessageDecoder<String> {
             UUID.fromString(votePayload.get("uuid").getAsString());
         }
 
-        if (votePayload.get("username").getAsString().length() > 16) {
+        if (votePayload.get("username").getAsString().length() > 32) {
             throw new CorruptedFrameException("Username too long");
         }
 

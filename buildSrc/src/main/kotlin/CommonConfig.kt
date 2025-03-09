@@ -13,10 +13,6 @@ fun Project.applyCommonConfiguration() {
     repositories {
         mavenCentral()
         maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots/") }
-        maven {
-            name = "Fabric"
-            url = uri("https://maven.fabricmc.net/")
-        }
     }
 
     configurations.all {
